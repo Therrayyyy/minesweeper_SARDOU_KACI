@@ -13,7 +13,7 @@ Cell::~Cell()
 }
 void Cell::addMine(bool mine)
 {
-    mine=true;
+    _mine=mine;
 }
 int Cell::get_neighbours()
 {
